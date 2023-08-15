@@ -1,0 +1,50 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Set a background color and text color for the body */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Style the header */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Style the header h1 */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Style specific text within the header h1 */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Style the navigation menu */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Style navigation menu list */
+.header nav ul {
+    list-style-type: none;
+}
+
+/* Style navigation menu list items */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
