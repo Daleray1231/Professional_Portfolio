@@ -1,35 +1,29 @@
-/* Reset some default styles */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* Set a background color and text color for the body */
 body {
-    background-color: #d9dcd6;
+    background-color: #ffffff;
 }
 
-/* Style the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #5d8c3b;
     color: #ffffff;
 }
 
-/* Style the header h1 */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* Style specific text within the header h1 */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-/* Style the navigation menu */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,13 +32,146 @@ body {
     font-size: 20px;
 }
 
-/* Style navigation menu list */
 .header nav ul {
     list-style-type: none;
 }
 
-/* Style navigation menu list items */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 150px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("/assets/images/Cancun-Beach-Mexico-a-city-on-the-Yucatan-Peninsula-that-borders-the-Caribbean-Sea-photo-Wallpaper-HD-3840x2400-915x515.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* .float-right {
+    float: right;
+    margin-left: 25px;
+} */
+
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#about img {
+    border-radius: 0 75% 0 75%;
+    padding: 10px;
+}
+
+#about p {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 250px 10px 250px;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#projects {
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 20px;
+}
+
+#contact {
+    margin-right: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:  #5d8c3b;
+}
+
+#contact ul {
+    list-style-type: none;
+}
+
+/* .contact-lead, .contact-brand, .contact-cost {
+    margin-bottom: 42px;
+    color: #ffffff;
+}
+
+.contact-lead h3, .contact-brand h3, .contact-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-lead img, .contact-brand img, .contact-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+} */
+
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #5d8c3b;
+    color: #ffffff;
+}
+
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    header {
+      text-align: center;
+    }
+  
+    nav ul li {
+      display: block;
+    }
+  
+    .applications {
+      flex-wrap: wrap;
+    }
+  
+    .applications img {
+      max-width: 100%;
+    }
+  }
