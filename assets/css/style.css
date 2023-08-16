@@ -85,9 +85,10 @@ p {
 #about p {
     display: flex;
     flex-wrap: wrap;
-    padding: 10px 250px 10px 250px;
+    padding: 10px 300px 30px 300px;
     font-size: larger;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
 }
 
 #projects {
