@@ -14,7 +14,7 @@ The Nav bar features links to corresponding sections on my page, as well as a do
 
 This website is deployed through GitHub. Click the link below to visit my repo page.
 
-Dale's Web Dev Portfolio
+https://daleray1231.github.io/professional-portfolio/ 
 
 ## Footer
 
