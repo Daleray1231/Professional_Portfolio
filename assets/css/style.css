@@ -5,7 +5,7 @@
 }
 
 :root {
-    --theme: rgb(103, 214, 148); 
+    --theme: rgb(103, 214, 148);
 }
 
 body {
@@ -87,7 +87,7 @@ p {
     justify-content: center;
     align-items: center;
     width: 75%;
-    padding: 10px 300px 30px 300px; 
+    padding: 10px 300px 30px 300px;
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 2;
@@ -109,7 +109,7 @@ p {
     width: 100%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color:  var(--theme);
+    background-color: var(--theme);
 }
 
 #contact ul {
@@ -124,7 +124,11 @@ article p {
     text-align: center;
 }
 
-.project1, .project2, .project3, .project4, .project5 {
+.project1,
+.project2,
+.project3,
+.project4,
+.project5 {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -133,16 +137,22 @@ article p {
     color: #ffffff;
 }
 
-.project1 img, .project2 img, .project3 img, .project4 img, .project5 img {
+.project1 img,
+.project2 img,
+.project3 img,
+.project4 img,
+.project5 img {
     max-height: 300px;
     max-width: 300px;
 }
 
-.project1 {
-    
-}
+.project1 {}
 
-.project1 h2, .project2 h2, .project3 h2, .project4 h2, .project5 h2 {
+.project1 h2,
+.project2 h2,
+.project3 h2,
+.project4 h2,
+.project5 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -190,11 +200,19 @@ article p {
         text-align: center;
     }
 
-    .project1, .project2, .project3, .project4, .project5 {
+    .project1,
+    .project2,
+    .project3,
+    .project4,
+    .project5 {
         padding: 20px;
     }
 
-    .project1 img, .project2 img, .project3 img, .project4 img, .project5 img {
+    .project1 img,
+    .project2 img,
+    .project3 img,
+    .project4 img,
+    .project5 img {
         max-height: 200px;
         max-width: 200px;
     }
@@ -223,11 +241,19 @@ article p {
         text-align: center;
     }
 
-    .project1, .project2, .project3, .project4, .project5 {
+    .project1,
+    .project2,
+    .project3,
+    .project4,
+    .project5 {
         padding: 30px;
     }
 
-    .project1 img, .project2 img, .project3 img, .project4 img, .project5 img {
+    .project1 img,
+    .project2 img,
+    .project3 img,
+    .project4 img,
+    .project5 img {
         max-height: 250px;
         max-width: 250px;
     }
