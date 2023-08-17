@@ -89,6 +89,9 @@ p {
 #about p {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
     padding: 10px 300px 30px 300px; 
     font-size: larger;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -134,6 +137,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 } */
+article p {
+    padding-right: 50%;
+}
 
 .project1, .project2, .project3, .project4, .project5 {
     margin-bottom: 20px;
@@ -145,7 +151,8 @@ p {
 }
 
 .project1 img, .project2 img, .project3 img, .project4 img, .project5 img {
-    max-height: 200px;
+    max-height: 300px;
+    max-width: 300px;
 }
 
 .project1 h2, .project2 h2, .project3 h2, .project4 h2, .project5 h2 {
@@ -164,7 +171,7 @@ p {
     font-size: 20px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     header {
       text-align: center;
     }
@@ -180,4 +187,4 @@ p {
     .applications img {
       max-width: 100%;
     }
-  }
+  } */
