@@ -88,9 +88,9 @@ p {
     align-items: center;
     width: 75%;
     padding: 10px 300px 30px 300px; 
-    font-size: larger;
+    font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 #projects {
@@ -119,6 +119,9 @@ p {
 
 article p {
     padding-right: 50%;
+    font-size: large;
+    line-height: 1.5;
+    text-align: center;
 }
 
 .project1, .project2, .project3, .project4, .project5 {
