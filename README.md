@@ -16,6 +16,8 @@ This website is deployed through GitHub. Click the link below to visit my repo p
 
 https://daleray1231.github.io/professional-portfolio/ 
 
+
+
 ## Footer
 
 The website was made by Dale Haynie.
