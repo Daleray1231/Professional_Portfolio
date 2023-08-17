@@ -119,10 +119,11 @@ p {
 
 article p {
     padding-right: 50%;
-    font-size: large;
+    font-size: larger;
     line-height: 1.5;
-    text-align: center;
+    text-align: right;
 }
+
 
 .project1,
 .project2,
@@ -146,8 +147,6 @@ article p {
     max-width: 300px;
 }
 
-.project1 {}
-
 .project1 h2,
 .project2 h2,
 .project3 h2,
@@ -162,6 +161,7 @@ article p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    line-height: 1.5;
 }
 
 .footer h2 {
