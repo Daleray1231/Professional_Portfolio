@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+:root {
+    --theme: rgb(103, 214, 148); 
+}
+
 body {
     background-color: #ffffff;
 }
@@ -11,7 +15,7 @@ body {
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #5d8c3b;
+    background-color: var(--theme);
     color: #ffffff;
 }
 
@@ -85,7 +89,7 @@ p {
 #about p {
     display: flex;
     flex-wrap: wrap;
-    padding: 10px 300px 30px 300px;
+    padding: 10px 300px 30px 300px; 
     font-size: larger;
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.5;
@@ -107,11 +111,12 @@ p {
     width: 100%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color:  #5d8c3b;
+    background-color:  var(--theme);
 }
 
 #contact ul {
     list-style-type: none;
+    line-height: 2;
 }
 
 /* .contact-lead, .contact-brand, .contact-cost {
@@ -130,20 +135,20 @@ p {
     max-width: 150px;
 } */
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+.project1, .project2, .project3, .project4, .project5 {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #5d8c3b;
+    background-color: var(--theme);
     color: #ffffff;
 }
 
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+.project1 img, .project2 img, .project3 img, .project4 img, .project5 img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+.project1 h2, .project2 h2, .project3 h2, .project4 h2, .project5 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
