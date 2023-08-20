@@ -124,6 +124,11 @@ article p {
     text-align: right;
 }
 
+/* #project1 img{
+    display: flex;
+    max-width: 400px;
+    max-height: 400px;
+} */
 
 .project1,
 .project2,
