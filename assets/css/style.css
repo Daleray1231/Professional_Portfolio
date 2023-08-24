@@ -228,6 +228,13 @@ article p {
         text-align: center;
     }
 
+    #project1 p {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        text-align: center;
+    }
+
     .project1,
     .project2,
     .project3,
@@ -268,6 +275,14 @@ article p {
         font-size: 18px;
         text-align: center;
     }
+
+    #project1 p {
+        width: 100%;
+        padding: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+
 
     .project1,
     .project2,
