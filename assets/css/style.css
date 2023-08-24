@@ -24,20 +24,12 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-.header nav ul {
-    list-style-type: none;
 }
 
 .header nav ul li {
@@ -48,10 +40,7 @@ body {
 a {
     color: #ffffff;
     text-decoration: none;
-}
-
-p {
-    font-size: 16px;
+    padding: 0;
 }
 
 .hero {
@@ -93,13 +82,90 @@ p {
     line-height: 2;
 }
 
-#projects {
-    width: 100%;
-    display: inline-block;
+#project1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 5px solid var(--theme);
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    font-size: 42px;
+    font-style: oblique;
+}
+
+#project1 img {
+    padding: 0px;
+    margin-top: 10px;
+    width: 550px;
+    height: auto;
+}
+
+#project1 p {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    width: 75%;
+    padding: 10px 300px 30px 300px;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2;
+}
+
+
+.project2, .project3, .project4, .project5 {
+    width: 100%;
     text-align: left;
     margin: 20px;
+}
+
+article p {
+    padding-right: 50%;
+    font-size: larger;
+    line-height: 1.5;
+    text-align: right;
+}
+
+#project1 img{
+    display: flex;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.project2,
+.project3,
+.project4,
+.project5 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--theme);
+    color: #ffffff;
+}
+
+
+.project2 img,
+.project3 img,
+.project4 img,
+.project5 img {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.project2 h2,
+.project3 h2,
+.project4 h2,
+.project5 h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 #contact {
@@ -115,50 +181,6 @@ p {
 #contact ul {
     list-style-type: none;
     line-height: 2;
-}
-
-article p {
-    padding-right: 50%;
-    font-size: larger;
-    line-height: 1.5;
-    text-align: right;
-}
-
-/* #project1 img{
-    display: flex;
-    max-width: 400px;
-    max-height: 400px;
-} */
-
-.project1,
-.project2,
-.project3,
-.project4,
-.project5 {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--theme);
-    color: #ffffff;
-}
-
-.project1 img,
-.project2 img,
-.project3 img,
-.project4 img,
-.project5 img {
-    max-height: 300px;
-    max-width: 300px;
-}
-
-.project1 h2,
-.project2 h2,
-.project3 h2,
-.project4 h2,
-.project5 h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
