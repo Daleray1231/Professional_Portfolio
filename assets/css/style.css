@@ -91,6 +91,7 @@ a {
     align-items: center;
     border: 5px solid var(--theme);
     padding: 10px;
+    margin: 15px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
