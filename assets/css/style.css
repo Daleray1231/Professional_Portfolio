@@ -44,8 +44,7 @@ a {
 }
 
 .hero {
-    min-height: 300px; /* Adjust this value as needed */
-    /* existing properties */
+    min-height: 300px; 
     background-image: url("/assets/images/Cancun-Beach-Mexico-a-city-on-the-Yucatan-Peninsula-that-borders-the-Caribbean-Sea-photo-Wallpaper-HD-3840x2400-915x515.jpg");
     background-size: cover;
     background-position: center;
@@ -259,7 +258,7 @@ article p {
     }
 
     .hero {
-        height: 200px;
+        height: 300px;
     }
 
     #about img {
