@@ -14,8 +14,6 @@ The Nav bar features links to corresponding sections on my page, as well as a do
 
 This website is deployed through [Github](https://daleray1231.github.io/Professional_Portfolio/).  
 
-![Alt text](image.png)
-
 ## Footer
 
 The website was made by Dale Haynie.
