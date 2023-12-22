@@ -76,9 +76,11 @@ a {
     align-items: center;
     width: 75%;
     padding: 10px 300px 30px 300px;
-    font-size: x-large;
+    font-size: medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 2;
+    border-width: 15px;
+    border-color: gold;
 }
 
 #project1 {
