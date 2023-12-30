@@ -12,7 +12,7 @@ The Nav bar features links to corresponding sections on my page, as well as a do
 
 ## Contributing
 
-This website is deployed through [Github](https://daleray1231.github.io/Professional_Portfolio/).  
+This website is deployed through [Github](https://daleray1231.github.io/professional_portfolio/).  
 
 ## Footer
 
