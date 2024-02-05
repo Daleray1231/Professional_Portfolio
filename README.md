@@ -14,10 +14,9 @@ The Nav bar features links to corresponding sections on my page, as well as a do
 
 This website is deployed through [Github](https://daleray1231.github.io/professional_portfolio/).  
 
-## Footer
-
-The website was made by Dale Haynie.
-
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).  
+  
+![alt text](assets/images/image.png)
+
